@@ -10,6 +10,7 @@ int main()
         if (arr[i] == ele)
         {
             pos = i;
+            break;
         }
 
         cout << pos;
